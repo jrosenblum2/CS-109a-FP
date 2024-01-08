@@ -1,2 +1,5 @@
 # CS-109a-FP
 Predicting the equilibrium temperature of exoplanets based on stellar and planetary characteristics. 
+This project was co-created with Bella Tarantino, Sage Crystian, and Alice Liu for our final project for Harvard's CS 109a, Introduction to Data Science. Our goal for the project is to predict the equilibrium temperature of exoplanets based on their planetary characteristics and their stellar characteristics. We are interested in equilibrium temperatures because it can be used as a proxy for the habitability of a planet. 
+
+To perform predictions, we pre-processed the data and imputed missing values through both physics and computational techniques. After performing a train-test split, we then cross-validated many different models (linear regression, kNN regression, forward feature selection, random forest, XGBoost, etc.) on the training set to determine which type of model would perform the best on our data set. After identifying the best type of model, we tuned its parameters through cross-validation and then made predictions on the test set. 
